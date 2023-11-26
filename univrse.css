@@ -117,6 +117,7 @@ header {
         padding: 10px;
         text-align: center;
         font-size: 20px;
+        z-index: 99;
     }
 
     .nav-links.active {
@@ -128,6 +129,13 @@ header {
     .burger-menu {
         display: flex;
     }
+    .my-button3{
+        border: 1px solid white;
+        margin-bottom: 4px;
+        border-radius: 10px;
+        background: none;
+        background-color: none;
+      }
 }
 
 #lab{

@@ -123,6 +123,14 @@ header {
     .burger-menu {
         display: flex;
     }
+
+    .my-button3{
+      border: 1px solid white;
+      margin-bottom: 4px;
+      border-radius: 10px;
+      background: none;
+      background-color: none;
+    }
 }
 
 /*---------------------- MAIN */
@@ -186,6 +194,7 @@ main p{
 }
 
 @media (max-width: 1002px) {
+ 
   .hero-card {
     display: grid; 
     grid-template-rows: 4;

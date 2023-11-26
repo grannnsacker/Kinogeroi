@@ -159,17 +159,7 @@ div>p{
   }
   
 
-@media (max-width: 960px) {
-    #grid-2x2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 2rem;
-        padding: 1rem;
-        margin: 10px 0px;
-    }
 
-
-}
 
 @media screen and (max-width: 976px) {
     #test1{
@@ -438,6 +428,21 @@ main > p{
       transform: scale(1.5);
     }
     
+    .my-button3{
+      border: 1px solid white;
+      margin-bottom: 4px;
+      border-radius: 10px;
+      background: none;
+      background-color: none;
+    }
+
+    #grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      padding: 1rem;
+      margin: 10px 0px;
+  }
     
 }
 
