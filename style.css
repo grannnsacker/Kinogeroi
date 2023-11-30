@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    /* background-color: rgb(170, 30, 30); */
     background: linear-gradient(45deg, #ff0000, #000);
     margin: 0px;
     border: 15px solid black;
@@ -33,21 +32,15 @@ header {
     margin-right: 20px;
 }
 
-
-
 .nav-links li:last-child {
     margin-right: 0;
 }
 
 .nav-links a {
     text-decoration: none;
-    /* color: #fff; */
-    /* color: black;
-    font-size: 20px;
-    font-weight: bold; */
+   
 }
 
-/* Стили для бургер-меню */
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -73,14 +66,13 @@ main{
 main > #test1 > img {
     outline: 10px solid black;
     border-radius: 20px;
-    max-width: 100%; /* Максимальная ширина изображения по ширине контейнера */
-    height: auto; /* Сохранение соотношения сторон изображения */
+    max-width: 100%;
+    height: auto;
 }
 
 #test1 {
     display: flex;
-    flex-direction: row; /* Вертикальное расположение элементов для мобильных устройств */
-    /* align-items: center; */
+    flex-direction: row;
     padding-bottom: 20px;
 }
 
@@ -245,22 +237,22 @@ footer {
     content: "";
     position: absolute;
     top: 0;
-    width: 0; /* Начальная ширина - 0 */
+    width: 0;
     height: 100%;
     background-color: #000;
-    transition: width 0.3s ease-in-out; /* Анимация изменения ширины */
+    transition: width 0.3s ease-in-out;
 }
   
 .my-button3::before {
-    left: 50%; /* Начальное положение в центре */
-    transform: translateX(-50%); /* Центрируем полоску */
-    z-index: -1; /* Устанавливаем z-index для псевдоэлемента ::before */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
 }
   
 .my-button3::after {
-    right: 50%; /* Начальное положение в центре */
-    transform: translateX(50%); /* Центрируем полоску */
-    z-index: -1; /* Устанавливаем z-index для псевдоэлемента ::after */
+    right: 50%;
+    transform: translateX(50%);
+    z-index: -1;
 }
   
 .my-button3:hover::before {
@@ -274,8 +266,6 @@ main > p{
     font-size: 30px;
     font-weight: bold;
 }
-
-
 
   .card2 {
     width: 400px;
@@ -329,7 +319,7 @@ main > p{
     border: 2px solid rgba(255, 255, 255, 0.205);
     border-radius: 50%;
     animation: neon-pulse 2s infinite alternate;
-    animation-play-state: paused; /* Начальное состояние анимации */
+    animation-play-state: paused;
   }
   
   @keyframes neon-pulse {
@@ -344,12 +334,12 @@ main > p{
   }
   
   .card2:hover {
-    animation: card-pulse 2s infinite alternate; /* Запускается после наведения */
+    animation: card-pulse 2s infinite alternate;
     transform: scale(1.05);
   }
   
   .card2:hover::after {
-    animation-play-state: running; /* Запуск анимации neon-pulse при наведении */
+    animation-play-state: running;
   }
   
   @keyframes card-pulse {
@@ -397,7 +387,7 @@ main > p{
     height: 320px;
     margin: 20px;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.3); /* Черный фон */
+    background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: 0.3s;
@@ -410,7 +400,7 @@ main > p{
   }
   
   
-  @media (max-width: 960px) {
+  @media (max-width: 1204px) {
     .glowCardSection{
         display: flex;
         flex-direction: column;
@@ -472,7 +462,6 @@ main > p{
   }
   
   .content p {
-    /* color: rgb(202, 53, 53);  */
     color: white;
     margin: 3px;
     font-size: 20px;
